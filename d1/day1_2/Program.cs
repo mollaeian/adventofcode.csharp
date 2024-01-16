@@ -17,7 +17,7 @@ try
                     if (str.Length - 3 >= i && str[i + 1] == 'n' && str[i + 2] == 'e')
                     {
                         str.Replace('o', '1', i, 1);
-                        i += 1;
+                        i += "one".Length - 2;
                     }
 
                     break;
@@ -25,13 +25,13 @@ try
                     if (str.Length - 3 >= i && str[i + 1] == 'w' && str[i + 2] == 'o')
                     {
                         str.Replace('t', '2', i, 1);
-                        i += 1;
+                        i += "two".Length - 2;
                     }
                     //three
                     else if (str.Length - 5 >= i && str[i + 1] == 'h' && str[i + 2] == 'r' && str[i + 3] == 'e' && str[i + 4] == 'e')
                     {
                         str.Replace('t', '3', i, 1);
-                        i += 3;
+                        i += "three".Length - 2;
                     }
 
                     break;
@@ -39,14 +39,14 @@ try
                     if (str.Length - 4 >= i && str[i + 1] == 'o' && str[i + 2] == 'u' && str[i + 3] == 'r')
                     {
                         str.Replace('f', '4', i, 1);
-                        i += 2;
+                        i += "four".Length - 2;
                     }
 
                     else if //five 
                         (str.Length - 4 >= i && str[i + 1] == 'i' && str[i + 2] == 'v' && str[i + 3] == 'e')
                     {
                         str.Replace('f', '5', i, 1);
-                        i += 2;
+                        i += "five".Length - 2;
                     }
 
                     break;
@@ -54,13 +54,13 @@ try
                     if (str.Length - 3 >= i && str[i + 1] == 'i' && str[i + 2] == 'x')
                     {
                         str.Replace('s', '6', i, 1);
-                        i += 2;
+                        i += "six".Length - 2;
                     }
                     else if //seven
                         (str.Length - 5 >= i && str[i + 1] == 'e' && str[i + 2] == 'v' && str[i + 3] == 'e' && str[i + 4] == 'n')
                     {
                         str.Replace('s', '7', i, 1);
-                        i += 3;
+                        i += "seven".Length - 2;
                     }
 
                     break;
@@ -68,7 +68,7 @@ try
                     if (str.Length - 5 >= i && str[i + 1] == 'i' && str[i + 2] == 'g' && str[i + 3] == 'h' && str[i + 4] == 't')
                     {
                         str.Replace('e', '8', i, 1);
-                        i += 3;
+                        i += "eight".Length - 2;
                     }
 
                     break;
@@ -76,7 +76,7 @@ try
                     if (str.Length - 4 >= i && str[i + 1] == 'i' && str[i + 2] == 'n' && str[i + 3] == 'e')
                     {
                         str.Replace('n', '9', i, 1);
-                        i += 2;
+                        i += "nine".Length - 2;
                     }
 
                     break;
