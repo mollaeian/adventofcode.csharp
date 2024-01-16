@@ -89,7 +89,6 @@ try
                 resultString.Append(str[i]);
         var temp = resultString[0] + resultString[^1].ToString();
         var number = int.Parse(temp);
-        Console.WriteLine($"{str} - {resultString} - {number}");
         sum += number;
     }
 }
